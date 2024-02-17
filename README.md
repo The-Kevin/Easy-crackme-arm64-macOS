@@ -6,6 +6,8 @@
 This project is very simple, just a binary that will ask an user and a serial number
 your objective is try bypass this using reverse engineer in assembly
 
+may I'll put other levels inside this project, the idea is make more crackmes to arm64
+
 ## Requirements
 
 OS: MacOs 10^
@@ -14,7 +16,7 @@ Architecture: ARM64
 ## How start
 
 There's 2 files in this project.
-An `main.s` that is an assembly file, you should link they using a command
+An `main.s` that is an assembly file, you should link they using a command 
 `clang main.s -o main`
 
 The `.c` source code's `.zip` file inside the "source" folder
